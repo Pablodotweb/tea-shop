@@ -1,0 +1,223 @@
+body {
+   background-color: black;
+}
+
+
+
+ .logo {
+   position: fixed;
+   margin-top: 5px;
+   margin-left: 10px;
+   height: 50px;
+   
+}
+
+a:link {
+    color: seashell;
+    font-size: 22px;
+    opacity: 0.9;
+    padding-right: 20px;
+}
+
+.list1 li {
+    display: inline;
+    width: 500px;
+    
+}
+
+.list1 {
+    z-index: 3;
+    width: 100%;
+    margin: auto;
+    border-bottom: 1px solid seashell; 
+    padding: 15px 0px 30px 1120px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    position: fixed;
+    
+}
+
+
+.container1 {
+    z-index: 3;
+    position: fixed;
+    width: 400px;
+    float: left;
+    
+}
+
+
+.banner-card {
+    position: relative;
+}
+
+.banner-card img {
+    z-index: -1;
+    color: seashell;
+    padding: 70px 150px 0px 150px;
+    opacity: 0.9;
+    max-width: 120%;
+    height: auto;
+   
+}
+
+
+.banner-text {
+    z-index: 0;
+    text-align: center;
+    color: seashell;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin-bottom: 400px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: black;
+}
+
+.miss {
+    opacity: 0.9;
+}
+
+.miss1 {
+    opacity: 0.9;
+}
+
+
+
+.banner-card2 {
+    z-index: -1;
+    color: seashell;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    opacity: 0.9;
+    margin-top: 60px;
+    
+  
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.row img {
+    z-index: -1;
+    margin-left: 40px;
+    max-width: 300px;
+    height: 200px;
+    margin-right: 40px;
+    
+}
+
+.tea {
+    z-index: 1;
+    color: seashell;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    opacity: 0.9;
+    margin-top: 10px;
+    padding-left: 5px;
+    
+}
+
+.banner3 {
+    z-index: -1;
+    background-image: url(/images/img-locations-background.webp);
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    padding-bottom: 210px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 80px;
+    opacity: 0.8;
+
+   
+}
+
+.locations {
+    padding-left: 618px;
+    padding-top: 80px;
+    margin-bottom: 4px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: seashell;
+    opacity: 0.9;
+    
+}
+
+
+.box-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+
+.down {
+    flex-basis: 300px;
+    margin-left: 190px;
+    background-color: black;
+    font-size: 22px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: seashell;
+}
+
+.east {
+    flex-basis: 300px;
+    background-color: black;
+    font-size: 22px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: seashell;
+}
+
+.oak {
+    flex-basis: 300px;
+    margin-right: 190px;
+    background-color: black;
+    font-size: 22px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: seashell;
+}
+
+.container5 {
+    color: seashell;
+    text-align: center;
+    font-size: 22px;
+    opacity: 0.9;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 7px;
+    
+
+}
+
+.container5 h2 {
+    margin-top: 0px;
+    
+}
+
+
+
+.container6 {
+    color: seashell;
+    text-align: center;
+    text-align: left;
+    font-size: 22px;
+    opacity: 0.9;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+
+}
